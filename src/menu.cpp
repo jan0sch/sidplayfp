@@ -408,6 +408,7 @@ const char* ConsolePlayer::getModel (SidTuneInfo::model_t model)
 {
     switch (model)
     {
+    default:
     case SidTuneInfo::SIDMODEL_UNKNOWN:
         return "UNKNOWN";
     case SidTuneInfo::SIDMODEL_6581:
